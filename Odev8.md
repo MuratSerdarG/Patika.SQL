@@ -14,8 +14,12 @@ CREATE TABLE employee (
 
 #### 2. Sorunun cevabı için :
 - Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
+
+![mockaroo](https://user-images.githubusercontent.com/93589387/154493855-d29b1071-9f79-46ef-b5e1-04a5b9974a9f.jpg)
+
+
 ```
-![mockaroo](https://user-images.githubusercontent.com/93589387/154493300-c285d034-bfd6-4a54-b8b2-fe0104851d5c.jpg)
+![mockaroo](https://user-images.githubusercontent.com/93589387/154493855-d29b1071-9f79-46ef-b5e1-04a5b9974a9f.jpg)
 
 Örnekler;
 insert into employee (id, name, birthday , email ) values (1, 'Judith', '1951-10-31', 'jskelbeck0@phpbb.com');
