@@ -4,7 +4,7 @@
 
 #### 1. Sorunun cevabı için :
 - test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
-```
+```sql
 CREATE TABLE employee (
   id INTEGER,
   name VARCHAR(50),
@@ -16,7 +16,7 @@ CREATE TABLE employee (
 - Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
 
 ![mockaroo](https://user-images.githubusercontent.com/93589387/154493855-d29b1071-9f79-46ef-b5e1-04a5b9974a9f.jpg)
-```
+```sql
 Örnekler;
 insert into employee (id, name, birthday , email ) values (1, 'Judith', '1951-10-31', 'jskelbeck0@phpbb.com');
 insert into employee (id, name, birthday , email ) values (2, 'Helaina', '1967-07-26', 'hmcdaid1@angelfire.com');
@@ -26,7 +26,7 @@ insert into employee (id, name, birthday , email ) values (3, 'Bertie', '1971-02
 
 #### 3. Sorunun cevabı için :
 - Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
-```
+```sql
 update employee
 set name='Warlock'
 Where id=4
@@ -54,7 +54,7 @@ RETURNING *;
 ```
 #### 4. Sorunun cevabı için :
 - Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
-```
+```sql
 Tek tek yapmak istersek;
 DELETE FROM employee
 WHERE id=9;
