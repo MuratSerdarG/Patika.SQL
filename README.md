@@ -1,4 +1,3 @@
-# Patika Veri Yapıları ve Algoritmalar
 # ○ Patika Veri Yapıları ve Algoritmalar ○
 
 ## Veri Bilimi Patikası
